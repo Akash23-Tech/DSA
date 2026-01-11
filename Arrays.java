@@ -1,0 +1,1 @@
+// Q1. find duplicate in a given array
