@@ -1,4 +1,4 @@
-// revese a string 
+// reverse a string 
 // Java program to reverse a string using backward traversal
 
 class GfG {
