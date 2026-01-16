@@ -1,12 +1,12 @@
 // Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo
 
-class Array01 {
+class Array012{
     public static void sort012(int[] arr) {
         int low = 0, mid = 0;
         int high = arr.length - 1;
 
         while (mid <= high) {
-            if (arr[mid] == 0) {
+            if (arr[mid] == 0){
                 swap(arr, low, mid);
                 low++;
                 mid++;
