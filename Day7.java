@@ -1,6 +1,8 @@
+// Write a program to cyclically rotate an array by one
+
 import java.util.Arrays;
 
-class RotateArray{
+class  RotateArray{
     static void rotate(int[] arr) {
         // store the last element in a variable
         int lastElement = arr[arr.length - 1];
