@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 class Solution{
 
-    // Merge method
     public static void merge(int[] arr1, int[] arr2, int n, int m) {
         for (int i = n - 1; i >= 0; i--) {
             if (arr1[i] > arr2[0]) {
@@ -12,14 +11,13 @@ class Solution{
                 arr1[i] = arr2[0];
                 arr2[0] = temp;
 
-                // keep arr2 sorted
+            
                 Arrays.sort(arr2);
                 Arrays.sort(arr1);
             }
         }
     }
 
-    // MAIN METHOD (Program starts here)
     public static void main(String[] args) {
         int[] arr1 = {1, 4, 7, 8, 10};
         int[] arr2 = {2, 3, 9};
