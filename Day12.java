@@ -27,12 +27,12 @@ class Solution{
 
         merge(arr1, arr2, n, m);
 
-        System.out.println("arr1:");
+        System.out.println("arr1 :");
         for (int x : arr1) {
             System.out.print(x + " ");
         }
 
-        System.out.println("\narr2:");
+        System.out.println("\narr2 :");
         for (int x : arr2) {
             System.out.print(x + " ");
             
