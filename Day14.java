@@ -1,3 +1,5 @@
+// Lexicographically Next Permutation of given String
+
 import java.util.Arrays;
 
 class Solution{
@@ -10,13 +12,11 @@ class Solution{
             i--;
         }
 
-
         if (i >= 0) {
             int j = n - 1;
             while (arr[j] <= arr[i]) {
                 j--;
             }
-
 
             int temp = arr[i];
             arr[i] = arr[j];
