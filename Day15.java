@@ -1,6 +1,6 @@
 // Count Inversions of an Array
 
-class Solution {
+class Solution{
 
     static int inversionCount(int arr[]) {
         
@@ -10,8 +10,7 @@ class Solution {
         for (int i = 0; i < n - 1; i++) {
             for (int j = i + 1; j < n; j++) {
               
-                // If the current element is greater than the next,
-                // increment the count
+    
                 if (arr[i] > arr[j])
                     invCount++;
             }
