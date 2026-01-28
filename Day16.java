@@ -16,7 +16,7 @@ class Solution{
     }
 
     public static void main(String[] args) {
-        int[] prices = {7, 10, 1, 3, 6, 9, 2};
+        int[] prices = {7, 10, 1, 3, 6, 9, 3};
         System.out.println("Maxprofit is: "  + maxProfit(prices));
     }
 }
