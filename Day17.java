@@ -1,5 +1,4 @@
-// Find all pairs on integer array whose sum is equal to given number
-
+// Find all pairs on integer array whose sum is equal to given numbe
 import java.util.HashSet;
 import java.util.Set;
 
@@ -20,7 +19,7 @@ class PairSum {
     }
 
     public static void main(String[] args) {
-        int[] arr = {2, 4, 3, 5, 6, -2, 4, 7};
+        int[] arr = {2, 4, 3, 5, 6, -2, 4, 6};
         int target = 7;
 
         findPairs(arr, target);
