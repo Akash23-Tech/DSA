@@ -28,9 +28,8 @@ class RearrangePositiveNegative{
         }
     }
 
-    // Driver
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, -4, -1, 4};
+        int[] arr = {1, 2, 3, -4, -1, 4,-6};
         rearrange(arr);
 
         for (int x : arr) {
