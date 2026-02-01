@@ -11,14 +11,13 @@ class ZeroSumSubarray {
         for (int i = 0; i < arr.length; i++) {
             prefixSum += arr[i];
 
-            // Case 1: Subarray from 0 to i
             if (prefixSum == 0) {
                 System.out.print("Zero-sum subarray: ");
                 printArray(arr, 0, i);
                 return;
             }
 
-            // Case 2: Subarray from map.get(prefixSum)+1 to i
+
             if (map.containsKey(prefixSum)) {
                 int start = map.get(prefixSum) + 1;
                 System.out.print("Zero-sum subarray: ");
