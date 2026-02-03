@@ -23,6 +23,7 @@ class LargeFactorial{
 
         System.out.println("Factorial of " + n + " is:");
         System.out.println(factorial(n));
+        System.out. println(Day21 problem completed);
 
         Sc.close();
     }
