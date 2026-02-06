@@ -41,5 +41,6 @@ class ZeroSumSubarray {
     public static void main(String[] args) {
         int[] arr = {4, 2, -3, 1, 6};
         printZeroSumSubarray(arr);
+        System.out.println("Day18 problem completed");
     }
 }
