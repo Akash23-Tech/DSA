@@ -18,11 +18,9 @@ class MoreThanNByK {
                 System.out.println(entry.getKey());
             }
         }
-    }
-
-    
+    }   
     public static void main(String[] args) {
-        int[] arr = {3, 1, 2, 2, 1, 2, 3, 3};
+        int[] arr = {3, 1, 2, 2, 1, 2, 3, 3, 2, 3};
         int k = 4;
 
         findElements(arr, k);
