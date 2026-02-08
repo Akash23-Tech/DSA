@@ -30,5 +30,6 @@ class MaximumProductSubarray {
     public static void main(String[] args) {
         int[] nums = {2, 3, -2, 4};
         System.out.println(maxProduct(nums)); 
+        System.out.println("Day22 problem completed");
     }
 }
