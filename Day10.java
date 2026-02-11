@@ -43,5 +43,6 @@ class Solution {
     {
         int[] arr = { 1, 3, 2, 2, 1, 4, 6 };
         System.out.println(minJumps(arr));
+        System.out.println("Day10 problem completed")
     }
 }
