@@ -17,5 +17,7 @@ class GfG {
         String s = "kulal";
         String res = reverseString(s);
         System.out.print(res);
+        System.out.print(Day1 problem completed);
+        
     }
 }
