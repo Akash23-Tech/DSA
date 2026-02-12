@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class LongestConsecutiveSubsequence {
+class LongestConsecutiveSubsequence{
 
     public static int longestConsecutive(int[] nums) {
         if (nums == null || nums.length == 0) return 0;

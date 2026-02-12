@@ -1,6 +1,6 @@
 import java.util.*;
 
-class MoreThanNByK {
+class MoreThanNByK{
 
     public static void findElements(int[] arr, int k) {
         int n = arr.length;
