@@ -5,7 +5,7 @@ import java.util.Arrays;
 class TripletSum {
 
     public static void findTriplet(int[] arr, int targetSum) {
-        Arrays.sort(arr);  // Step 1: Sort the array
+        Arrays.sort(arr);
 
         int n = arr.length;
 
@@ -21,7 +21,7 @@ class TripletSum {
                         + arr[i] + ", " 
                         + arr[left] + ", " 
                         + arr[right]);
-                    return; // Remove this if you want all triplets
+                    return; 
                 } 
                 else if (currentSum < targetSum) {
                     left++;
@@ -36,7 +36,7 @@ class TripletSum {
     }
 
     public static void main(String[] args) {
-        int[] arr = {12, 3, 4, 1, 6, 9};
+        int[] arr = {12, 3, 4, 2, 6, 9};
         int target = 24;
 
         findTriplet(arr, target);
