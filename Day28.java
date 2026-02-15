@@ -38,9 +38,9 @@ class TrappingRainWater{
     public static void main(String[] args) {
 
         int[] arr1 = {3, 0, 1, 0, 4, 0, 2};
-        System.out.println(trap(arr1));  // Output: 10
+        System.out.println(trap(arr1)); 
 
-        int[] arr2 = {3, 0, 2, 0, 4};
-        System.out.println(trap(arr2));  // Output: 7
+        int[] arr2 = {3, 0, 2, 0, 4, 6};
+        System.out.println(trap(arr2)); 
     }
 }
