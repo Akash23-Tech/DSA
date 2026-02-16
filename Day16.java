@@ -1,6 +1,6 @@
 // Stock Buy and Sell - Max one Transaction Allowed
 
-class Solution{
+class Solution {
 
     static int maxProfit(int[] prices) {
         int n = prices.length;
