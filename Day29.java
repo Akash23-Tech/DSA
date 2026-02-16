@@ -2,18 +2,17 @@
 
 import java.util.Arrays;
 
-class ChocolateDistribution {
+class ChocolateDistribution{
 
     public static int findMinDifference(int[] arr, int m) {
         int n = arr.length;
 
-        // Edge cases
         if (m == 0 || n == 0) {
             return 0;
         }
 
         if (m > n) {
-            return -1; // Not enough packets
+            return -1;
         }
 
         // Step 1: Sort the array
@@ -31,7 +30,7 @@ class ChocolateDistribution {
     }
 
     public static void main(String[] args) {
-        int[] arr = {3, 4, 1, 9, 56, 7, 9, 12};
+        int[] arr = {3, 4, 1, 9, 56, 7, 9, 12, 13};
         int m = 5;
 
         int result = findMinDifference(arr, m);
