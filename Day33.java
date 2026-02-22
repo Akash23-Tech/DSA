@@ -24,5 +24,6 @@ class Solution{
         int[] arr = { 121, 131, 20 };
         boolean res = isPalinArray(arr);
         System.out.println(res);
+        System.out.println("Day33 problem completed");
     }
 }
