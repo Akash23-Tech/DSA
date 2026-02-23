@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-class TripletSum {
+class TripletSum{
 
     public static void findTriplet(int[] arr, int targetSum) {
         Arrays.sort(arr);

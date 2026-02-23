@@ -22,6 +22,6 @@ class Solution{
         int arr[] = {4, 3, 2, 1};
         
         System.out.println(inversionCount(arr));
-        System.out. println("Day15 problem completed")
+        System.out. println("Day15 problem completed");
     }
 }

@@ -1,6 +1,6 @@
 // Minimum no. of Jumps to reach end of an array
 
-class Solution {
+class Solution{
 
     static int minJumps(int[] arr){
         int n = arr.length;
@@ -43,6 +43,6 @@ class Solution {
     {
         int[] arr = { 1, 3, 2, 2, 1, 4, 6 };
         System.out.println(minJumps(arr));
-        System.out.println("Day10 problem completed")
+        System.out.println("Day10 problem completed");
     }
 }
