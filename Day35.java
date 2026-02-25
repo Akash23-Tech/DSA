@@ -43,5 +43,6 @@ class MedianAfterMerge {
 
         double median = findMedian(a, b);
         System.out.println("Median: " + median);
+        System.out.println("Day35 problem completed");
     }
 }
