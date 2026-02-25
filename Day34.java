@@ -34,5 +34,6 @@ class MedianOfTwoSortedArrays {
 
         double median = findMedian(a, b);
         System.out.println("Median: " + median);
+        System.out.println("Day34 problem completed");
     }
 }
