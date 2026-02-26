@@ -1,4 +1,4 @@
 // Matrix - Spiral traversal on a Matrix
-public class Day36 {
+class Day36 {
     
 }
