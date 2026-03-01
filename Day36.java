@@ -46,7 +46,6 @@ class SpiralTraversal{
 
         return result;
     }
-
     public static void main(String[] args) {
         int[][] matrix = {
             {1, 2, 3},
@@ -54,5 +53,6 @@ class SpiralTraversal{
             {7, 8, 9}
         };
         System.out.println(spiralOrder(matrix));
+        System.out.println("Day36 problem solved");
     }
 }
