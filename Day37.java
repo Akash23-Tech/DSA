@@ -32,5 +32,6 @@ class SearchInSortedMatrix {
 
         boolean result = search(mat, x);
         System.out.println(result);
+        System.out.println("Day37 problem completed");
     }
 }
