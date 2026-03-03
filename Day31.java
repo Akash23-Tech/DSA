@@ -31,11 +31,17 @@ class ThreeWayPartition {
     public static void main(String[] args) {
         int[] arr = {1, 4, 3, 2, 5, 2, 3, 1};
         int x = 5;
+        
 
         threeWayPartition(arr, x);
 
         for (int num : arr) {
             System.out.print(num + " ");
+            
         }
+        System.out.println("");
+        System.out.println("Day31 problem completed");
+       
     }
+    
 }
