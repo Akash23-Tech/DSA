@@ -32,5 +32,6 @@ class Solution{
         int median = arr[(n * m) / 2];
 
         System.out.println("Median is: " + median);
+        System.out.println("Day39 problem completed");
     }
 }
