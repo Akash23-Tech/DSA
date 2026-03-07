@@ -41,5 +41,6 @@ class Main{
                 {1,1,0,0}
         };
         System.out.println(maxRectangle(mat));
+        System.out.println("Day41 DSA problem Solved");
     }
 }
