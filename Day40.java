@@ -40,6 +40,8 @@ class SortMatrix{
                 System.out.print(mat[i][j] + " ");
             }
             System.out.println();
+            
         }
+        System.out.println("Day40 DSA Problem Solved");
     }
 }
