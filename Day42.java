@@ -49,11 +49,12 @@ class SpecificPairMatrix{
                 {-8, -3, 4, 2, 1},
                 {3, 8, 6, 1, 3},
                 {-4, -1, 1, 7, -6},
-                {0, -4, 10, -5, 1}
+                {0, -4, 10, -5, 1, 2}
         };
 
         int n = mat.length;
 
         System.out.println("Maximum Value: " + findMaxValue(mat, n));
+    
     }
 }
