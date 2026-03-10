@@ -55,6 +55,7 @@ class SpecificPairMatrix{
         int n = mat.length;
 
         System.out.println("Maximum Value: " + findMaxValue(mat, n));
+        System.out.println("Day42 Problem Solved.");
     
     }
 }
