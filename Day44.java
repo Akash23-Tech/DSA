@@ -18,7 +18,6 @@ class Main {
         }
         return count;
     }
-
     static int kthSmallest(int[][] mat, int n, int k) {
         int low = mat[0][0];
         int high = mat[n - 1][n - 1];
@@ -32,10 +31,8 @@ class Main {
                 high = mid;
             }
         }
-
         return low;
     }
-
     public static void main(String[] args) {
         int[][] mat = {
                 {16, 28, 60, 64},
@@ -43,10 +40,10 @@ class Main {
                 {27, 50, 87, 93},
                 {36, 78, 87, 94}
         };
-
         int k = 3;
         int n = mat.length;
 
         System.out.println(kthSmallest(mat, n, k));
+        System.out.println("Day44 DSA Promblem Solved");
     }
 }
