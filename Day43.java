@@ -11,7 +11,6 @@ class RotateMatrix {
         };
 
         int n = mat.length;
-
         // Step 1: Transpose the matrix
         for (int i = 0; i < n; i++) {
             for (int j = i; j < n; j++) {
@@ -20,7 +19,6 @@ class RotateMatrix {
                 mat[j][i] = temp;
             }
         }
-
         // Step 2: Reverse each row
         for (int i = 0; i < n; i++) {
             int left = 0;
@@ -35,13 +33,12 @@ class RotateMatrix {
                 right--;
             }
         }
-
-        // Print rotated matrix
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 System.out.print(mat[i][j] + " ");
             }
             System.out.println();
         }
+        System.out.println("Day43 DSA Problem Solved");
     }
 }
