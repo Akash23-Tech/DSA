@@ -34,5 +34,8 @@ class Main {
         if (!found) {
             System.out.println(-1);
         }
+        System.out.println("Day45 problem completed");
+    }
+        
     }
 }
