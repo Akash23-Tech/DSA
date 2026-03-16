@@ -42,9 +42,6 @@ class MinSwapsK{
         int k = 3;
 
         System.out.println(minSwaps(arr, k));
-<<<<<<< HEAD
         System.out.println("Day32 problem completed");
-=======
->>>>>>> 3e57514 (saving my local changes)
     }
 }

@@ -1,6 +1,6 @@
 // Find row with maximum no. of 1's
 
-class Solution{
+class Solution {
 
     public static int rowWithMax1s(int[][] arr) {
         int n = arr.length;
