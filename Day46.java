@@ -1,5 +1,23 @@
 // Strings - Check whether a String is Palindrome or not
 
-class Solution {
-    
+class PalindromeCheck {
+
+    public static boolean isPalindrome(String s) {
+        int left = 0;
+        int right = s.length() - 1;
+
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        String s = "Akash";
+        System.out.println(isPalindrome(s));
+    }
 }
