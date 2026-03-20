@@ -21,5 +21,6 @@ class StringRotation {
         } else {
             System.out.println("false");
         }
+        System.out.println("Day49 Dsa problem solved");
     }
 }
