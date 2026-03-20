@@ -1,6 +1,6 @@
 // WAP - Why strings are immutable in Java?
 
-class StringImmutabilityDemo {
+class StringImmutabilityDemo{
     public static void main(String[] args) {
 
         String str = "Akash";
@@ -12,6 +12,8 @@ class StringImmutabilityDemo {
         // Now assigning the result
         str = str.concat(" Kulal");
         System.out.println("After concat (with assignment): " + str);
+
+        System.out.println("Day48 Dsa problem solved");
         
     }
 }
