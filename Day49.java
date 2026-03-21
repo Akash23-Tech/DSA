@@ -13,8 +13,8 @@ class StringRotation {
     }
 
     public static void main(String[] args) {
-        String s1 = "abcd";
-        String s2 = "cdab";
+        String s1 = "Akash";
+        String s2 = "shakA";
 
         if (isRotation(s1, s2)) {
             System.out.println("true");
