@@ -23,6 +23,7 @@ class DuplicateCharactersCount {
             if (count > 1) {
                 System.out.println(arr[i] + " : " + count);
             }
+            System.out.println("Day47 Dsa problem completed");
         }
     }
 }
