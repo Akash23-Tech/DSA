@@ -38,5 +38,6 @@ class ValidShuffleSimple {
         } else {
             System.out.println("Not a Valid Shuffle");
         }
+        System.out.println("Day50 Dsa problem solved");
     }
 }
