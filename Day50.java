@@ -31,7 +31,7 @@ class ValidShuffleSimple {
     public static void main(String[] args) {
         String str1 = "Aka";
         String str2 = "sha";
-        String result = "akasha";
+        String result = "Akaahs";
 
         if (isValidShuffle(str1, str2, result)) {
             System.out.println("Valid Shuffle");
