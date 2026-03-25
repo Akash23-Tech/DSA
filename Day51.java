@@ -19,18 +19,15 @@ class LookAndSay{
                     count = 1;
                 }
             }
-
-            // append last group
             temp.append(count).append(result.charAt(result.length() - 1));
 
             result = temp.toString();
         }
-
         return result;
     }
-
     public static void main(String[] args) {
         int n = 5;
         System.out.println(nthRow(n));
+        System.out.println("Day51 Dsa problem solved");
     }
 }
