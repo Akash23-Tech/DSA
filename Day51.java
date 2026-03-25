@@ -26,7 +26,7 @@ class LookAndSay{
         return result;
     }
     public static void main(String[] args) {
-        int n = 5;
+        int n = 3;
         System.out.println(nthRow(n));
         System.out.println("Day51 Dsa problem solved");
     }
