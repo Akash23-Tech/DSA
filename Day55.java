@@ -4,6 +4,7 @@ class Day55 {
     public static void main(String[] args) {
         String s = "ABC"; // change input here
         permute(s, "");
+        System.out.println("Day55 Dsa problem solved");
     }
 
     static void permute(String str, String ans) {
@@ -23,5 +24,7 @@ class Day55 {
             // Recursive call
             permute(remaining, ans + ch);
         }
+        
     }
+    
 }
