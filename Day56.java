@@ -34,5 +34,7 @@ class BalancedBinaryString{
         String s = "0100110101";
         int ans = maxBalancedSubstrings(s);
         System.out.println(ans);  
+        System.out.println("Day56 Dsa problem solved");
     }
+
 }
