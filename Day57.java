@@ -41,7 +41,7 @@ class WordWrap{
         return dp[0];
     }
     public static void main(String[] args) {
-        int[] arr = {3, 2, 2, 5};
+        int[] arr = {3, 2, 2, 5, 4};
         int k = 6;
 
         System.out.println(solveWordWrap(arr, k)); 
