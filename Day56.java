@@ -29,7 +29,6 @@ class BalancedBinaryString{
 
         return result;
     }
-
     public static void main(String[] args) {
         String s = "010011010101";
         int ans = maxBalancedSubstrings(s);
