@@ -36,8 +36,8 @@ class EditDistance {
     }
 
     public static void main(String[] args) {
-        String s1 = "Akash";
-        String s2 = "Akas";
+        String s1 = "Pankaj";
+        String s2 = "Panka";
 
         int result = minOperations(s1, s2);
         System.out.println("Minimum operations: " + result);
