@@ -41,5 +41,6 @@ class EditDistance {
 
         int result = minOperations(s1, s2);
         System.out.println("Minimum operations: " + result);
+        System.out.println("Day58 Dsa problem solved");
     }
 }
