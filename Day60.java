@@ -16,9 +16,7 @@ class BalancedBrackets {
 
                 if (stack.isEmpty()) {
                     return false;
-                }
-
-                char top = stack.pop();
+                }                char top = stack.pop();
 
                 if ((ch == ')' && top != '(') ||
                     (ch == '}' && top != '{') ||
