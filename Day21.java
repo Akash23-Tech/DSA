@@ -26,6 +26,5 @@ class LargeFactorial{
         System.out.println("Day21 problem completed");
 
         Sc.close();
-        Sc.close
     }
 }
