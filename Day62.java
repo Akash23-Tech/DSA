@@ -53,9 +53,9 @@ class Solution{
     }
 
     public static void main(String[] args) {
-        String txt = "abcab";
+        String txt = "abcaba";
         String pat = "ab";
-
+        
         System.out.println(search(pat, txt)); 
         System.out.println("Day62 Dsa problem solved");
     }
