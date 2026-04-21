@@ -41,5 +41,6 @@ class Solution {
     public static void main(String[] args) {
         String input = "Akash Kulal";
         System.out.println(printSequence(input));
+        System.out.println("Day64 Dsa problem completed");
     }
 }
