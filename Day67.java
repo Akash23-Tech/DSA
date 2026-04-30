@@ -20,6 +20,7 @@ class WordSearch2D{
 
         int result = countOccurrences(mat, target);
         System.out.println("Output: " + result);
+        System.out.println("Day67 Dsa problem solved");
     }
 
     static int countOccurrences(char[][] mat, String word) {
@@ -48,7 +49,6 @@ class WordSearch2D{
             return 0;
         }
 
-        // Mark visited
         visited[x][y] = true;
 
         int count = 0;
@@ -57,7 +57,6 @@ class WordSearch2D{
             count += dfs(mat, word, x + dx[dir], y + dy[dir], index + 1, visited);
         }
 
-        // Backtrack
         visited[x][y] = false;
 
         return count;
