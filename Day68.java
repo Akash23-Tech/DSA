@@ -1,6 +1,6 @@
 // Search a Word in a 2D Grid of characters
 
-class Main{
+class Main {
 
     static int[] x = {-1, -1, -1, 0, 0, 1, 1, 1};
     static int[] y = {-1, 0, 1, -1, 1, -1, 0, 1};
@@ -59,5 +59,6 @@ class Main{
         String word = "AKASH";
 
         patternSearch(grid, word);
+        System.out.println("Day68 Dsa problem solved");
     }
 }
