@@ -59,6 +59,6 @@ class Main {
         String word = "AKASH";
 
         patternSearch(grid, word);
-        System.out.println("Day68 Dsa problem solved");
+        System.out.println("Day68 Dsa problem completed");
     }
 }
