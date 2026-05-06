@@ -1,6 +1,6 @@
 // Convert a Sentence into its equivalent mobile numeric keypad sequence
 
-class Solution {
+class Solution{
 
     // Function to convert sentence to keypad sequence
     public static String printSequence(String input) {

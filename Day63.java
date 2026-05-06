@@ -4,6 +4,7 @@ class Main{
     public static void main(String[] args) {
         String s = "abab";
         System.out.println(longestPrefixSuffix(s));
+        System.out.println("Day63 Dsa problem completed");
     }
 
     public static int longestPrefixSuffix(String s) {
