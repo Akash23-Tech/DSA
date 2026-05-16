@@ -19,5 +19,7 @@ class Akash{
         boolean result = isPatternPresent(txt, pat);
 
         System.out.println(result);
+        System.out.println("Day69 Dsa problem solved");
+        
     }
 }
